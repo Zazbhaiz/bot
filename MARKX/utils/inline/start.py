@@ -1,6 +1,6 @@
 from typing import Union
 
-from pyrogram.types import InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton, CallbackQuery
 
 import config
 from MARKX import app
@@ -41,7 +41,11 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="❍ʜᴇʟᴩ❍", callback_data="settings_back_helper"
+                text="❍Music❍", callback_data="settings_back_helper"
+            ),
+
+             InlineKeyboardButton(
+                text="❍Management❍", callback_data="settings_back_helper"
             ),
             
         ],
@@ -52,6 +56,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         
      ]
     return buttons
+
+#Callback
 
 
 

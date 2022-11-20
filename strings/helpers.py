@@ -166,3 +166,24 @@ HELP_13 = """<u>» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ​​ 
  ❍ /blue : Change the text into blue text.
  ❍ /latin : Change the text into latin text.
  ❍ /lined : Change the text into lined text."""
+
+HELP_14 = """<u>» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ​​ Aᴘᴘʀᴏᴠᴇ :
+
+Sometimes, you might trust a user not to send unwanted content.
+Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
+
+That's what approvals are for - approve of trustworthy users to allow them to send 
+
+Admin commands:
+❍ /approval: Check a user's approval status in this chat.
+❍ /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
+❍ /unapprove: Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
+❍ /approved: List all approved users.
+❍ /unapproveall: Unapprove ALL users in a chat. This cannot be undone."""
+
+HELP_15 = """<u>» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ​​ Aꜰᴋ​ :
+
+Away from group
+ ❍ /afk <reason>: mark yourself as AFK(away from keyboard).
+ ❍ brb <reason>: same as the afk command - but not a command.
+When marked as AFK, any mentions will be replied to with a message to say you're not available!"""
