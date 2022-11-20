@@ -45,7 +45,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
 
              InlineKeyboardButton(
-                text="❍Management❍", callback_data="settings_back_helpers"
+                text="❍Management❍", callback_data="settings_back_helper"
             ),
             
         ],
